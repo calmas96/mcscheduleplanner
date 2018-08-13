@@ -1,6 +1,6 @@
 package read_write_files;
 
-import Objects.Example;
+import objects.Example;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
