@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <title>Welcome to Mission College Schedule Planner</title>
-</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mission College Schedule Planner">
+    <meta name="keywords" content="Mission College, Schedule Planner, MC Schedule Planner">
+    <meta name="author" content="Sang T. Le">
+    <title>MC Schedule Planner</title>
+    <p>This is an unofficial schedule planner for Mission College</p>
+</head>
 <body>
+<div id="addingCoursesAndBreaks">
+    <div id="addingCourses">
+        <form>
+            <select name="courses">
+                <option value="ACCT_001">ACCT 001</option>
+            </select>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+    <div id="addingBreaks">
+        <form>
+            <input type="text" placeholder="Add your break">
+            <br>
+            Start <input type="time">
+            <br>
+            End <input type="time">
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+</div>
+<div id="coursesAndBreaksConclusion"></div>
+<div id="weekByWeekSchedule"></div>
 </body>
-<footer>
-</footer>
 </html>
