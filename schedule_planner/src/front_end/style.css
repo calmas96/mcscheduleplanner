@@ -1,0 +1,57 @@
+body{
+	width: 900px;
+	margin: auto;
+	background-color: white;
+}
+
+#newsAndUpdates{
+	width: 900px;
+	background-color: #1ba6e1;
+	margin: 3% 0 1% 0;
+	border: 2px solid black;
+	padding: auto;
+}
+
+.infoHeading{
+	text-align: center;
+}
+
+#container{
+	width: 900px;
+	background-color: #007077;
+	margin: auto;
+	border: 2px solid black;
+	padding: auto;
+}
+
+#addingCourses{
+	width: 446px;
+	float: left;
+	margin: auto;
+	border: 2px solid black;
+	padding: auto;
+}
+
+#addingBreaks{
+	width: 446px;
+	float: left;
+	margin: auto;
+	border: 2px solid black;
+	padding: auto;
+}
+
+#schedule{
+	width: 900px;
+	float: none;
+	margin: auto;
+	border: 2px solid black;
+	padding: auto;
+}
+
+#timetable{
+	width: 900px;
+	float: none;
+	margin: auto;
+	border: 2px solid black;
+	padding: auto;
+}
